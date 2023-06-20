@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(223, 131, 186);
+}
+
+#container {
+    width: 30%;
+    height: 80%;
+    border-radius: 25px;
+    background-color: rgb(169, 236, 214);
+    padding: 1rem;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: rgba(252, 55, 55, 0.438);
+}
+
+header h1{
+    font-size: xx-large;
+  }
+
+section #amount, #guests {
+    height: 2rem;
+    border: 1px solid gray;
+    width: 95%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: aliceblue;
+    color: rgb(27, 27, 214);
+}
+
+ section .logo {
+    width: 5%;
+    height: 2rem;
+    background-color: rgba(203, 223, 241, 0.082);
+    border: none;
+    font-size: xx-large;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+select {
+    width: 100%;
+    border-radius: 15px;
+    height: 2rem;
+    background-color: aliceblue;
+    color: rgb(27, 27, 214);
+}
+
+.btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn button {
+    border-radius: 25px;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: rgb(27, 27, 214);
+    width: 6rem;
+    height: 2rem;
+}
+
+.btn button:hover {
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: rgb(28, 28, 211);
+    color: aliceblue;
+}
+
+.section1,.section2,.section3,.section4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.2rem;
+    column-gap: 0.2rem;
+  }
+  .section5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2rem;
+  }
+
+#result {
+    height: 2rem;
+    text-align: center;
+    width: 10rem;
+    background-color: burlywood;
+}
+
+.buttons{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    section .logo {
+    
+      width: 8%;
+    }
+
+    section #amount, #guests{
+        width: 92%;
+
+    }
+    .container{
+        height: 70%;
+      }
+    .btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        flex-wrap: wrap
+    }
+    header h1{
+        font-size: medium;
+        font-display: block;
+    }
+    .btn {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+  };
+
+
