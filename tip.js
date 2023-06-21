@@ -21,7 +21,7 @@
          // This is to keep the code from displaying technical jargon to the client
  
          if (tip === "NaN") {
-             tipAmount.textContent ='Tip ₦0 each'
+             tipAmount.textContent ='Enter a valid amount'
  
          }
          else{
