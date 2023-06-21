@@ -21,11 +21,11 @@
          // This is to keep the code from displaying technical jargon to the client
  
          if (tip === "NaN") {
-             tipAmount.textContent ='Enter a valid amount'
+             tipAmount.textContent ='Invalid Amount'
  
          }
          else{
-             tipAmount.textContent ='Tip ₦' + tip
+             tipAmount.textContent ='Tip ₦' + tip + '-thanks!'
          }
      }
      // This syntax will run if the guest(s) is not willing to share the bill
@@ -38,10 +38,10 @@
          // This is to keep the code from displaying technical jargon to user
  
          if (tip === "NaN") {
-             tipAmount.textContent = 'Enter Valid amount'
+             tipAmount.textContent = 'Invalid amount'
          }
          else{
-             tipAmount.textContent = 'Enter valid amount'  
+             tipAmount.textContent = 'Tip ₦' + tip + '-thanks!'
          }
      }
  
@@ -51,12 +51,19 @@
  reset.onclick = () => {
      tipAmount.textContent = " "
  }
-
+ 
  
  // The naira symbol was copied from https://www.cyberdefinitions.com/symbols/currency-symbols/naira-sign.html
  
  
  
+
+
+
+
+
+
+
 
 
 
