@@ -51,7 +51,7 @@
  reset.onclick = () => {
      tipAmount.textContent = " "
  }
- // console.log('hello');
+
  
  // The naira symbol was copied from https://www.cyberdefinitions.com/symbols/currency-symbols/naira-sign.html
  
