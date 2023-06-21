@@ -41,7 +41,7 @@
              tipAmount.textContent = 'Enter Valid amount'
          }
          else{
-             tipAmount.textContent = 'Tip ₦' + tip 
+             tipAmount.textContent = 'Enter valid amount'  
          }
      }
  
