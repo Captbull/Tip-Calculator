@@ -95,7 +95,7 @@ select {
     justify-content: center;
     gap: 2rem;
 }
-#reset{
+#reset, #calc{
     color: #a8c5d1;
     background-color: rgba(48, 75, 46, 0.795);
 }
