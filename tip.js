@@ -38,7 +38,7 @@ const calculate = () => {
         // This is to keep the code from displaying technical jargon to user
 
         if (tip === "NaN") {
-            tipAmount.textContent = 'Tip ₦0'
+            tipAmount.textContent = 'Please enter valid tip amount'
         }
         else{
             tipAmount.textContent = 'Tip ₦' + tip 
