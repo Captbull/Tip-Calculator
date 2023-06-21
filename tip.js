@@ -25,7 +25,7 @@
  
          }
          else{
-             tipAmount.textContent ='Tip ₦' + tip + 'each'
+             tipAmount.textContent ='Tip ₦' + tip
          }
      }
      // This syntax will run if the guest(s) is not willing to share the bill
