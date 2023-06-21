@@ -4,9 +4,10 @@
 * {
     margin: 0;
     padding: 0;
-    color: #0f3443;
+    color: #ffffff;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+    font-weight: 700;
    
 }
 hr{
@@ -20,8 +21,8 @@ main {
     justify-content: center;
     height: 100vh;
     background: #30E8BF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #f8f6f4, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89b4a4, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -37,7 +38,6 @@ main {
     justify-content: center;
     align-items: center;
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column ;
     position: relative;
 }
@@ -62,7 +62,6 @@ section #amount, #guests {
 }
 .logo {
     width: 5%;
-    /* height: 1rem; */
     background-color: rgba(0, 0, 0, 0);
     border: none;
     font-size: x-large;
@@ -97,7 +96,7 @@ select {
     gap: 2rem;
 }
 #reset{
-    color: #0f3443;
+    color: #a8c5d1;
     background-color: rgba(48, 75, 46, 0.795);
 }
 
@@ -205,8 +204,5 @@ input{
     #top{
         position: absolute;
         top: 5px;
-    }
-    hr{
-        display: none;
     }
 }
